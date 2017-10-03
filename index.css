@@ -50,7 +50,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   transform: scaleX(-1);
-        filter: FlipH;
 }
 
 .body-wrapper {
@@ -59,6 +58,33 @@
 	padding-left: 5%;
 	padding-right: 5%;
 	padding-top: 100px;
+}
+
+/*Wraps the individual content added to the body*/
+.content-wrapper {
+	margin: 0 auto;
+  border: 2px solid darkblue;
+  /*padding-top: 5%;*/
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  font-size: 1.3em;
+}
+
+.stroke {
+	color: black;
+  text-shadow:
+   -1px -1px 0 #FFF,  
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+     1px 1px 0 #FFF;
+  /*font-size: 3em;*/
+}
+
+.content-wrapper h1 {
+	font-size: 2em;
+	text-align: center;
+
 }
 
 #footer {
