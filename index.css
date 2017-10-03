@@ -1,0 +1,31 @@
+.sidebar-left{
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 15%;
+	background-image: url(images/glen.jpg);
+	background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sidebar-right{
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 15%;
+  background-image: url(images/glen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scaleX(-1);
+        filter: FlipH;
+}
+
+.body-wrapper {
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 100px;
+}
