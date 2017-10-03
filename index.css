@@ -1,17 +1,25 @@
 .sidebar-left{
 	position: fixed;
 	left: 0;
+	top: 0;
 	height: 100%;
 	width: 15%;
-	background-image: url();
+	background-image: url(images/glen.jpg);
+	background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .sidebar-right{
 	position: fixed;
+	top: 0;
 	right: 0;
 	height: 100%;
 	width: 15%;
-  background-image: url();
+  background-image: url(images/glen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scaleX(-1);
+        filter: FlipH;
 }
 
 .body-wrapper {
