@@ -1,0 +1,27 @@
+#nav-bar {
+	width: 70%;
+	height: 100px;
+	left: 15%;
+	position: relative;
+	background-image: url(wasatch_logo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#nav-bar > h1 {
+	position: absolute;
+}
+
+#nav-list > li {
+	display: inline-block;
+	margin: 0 auto;
+	position: relative;
+	left: 72%;
+	line-height: 90px;
+}
+
+#nav-list > li > a {
+	font-size: 1.5em;
+	color: ghostwhite;
+}
