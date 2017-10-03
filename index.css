@@ -4,14 +4,16 @@
 	height: 100px;
 	left: 15%;
 	position: relative;
-	background-image: url(wasatch_logo.jpg);
+	background-image: url(images/wasatch_logo.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	box-sizing: border-box;
 }
 
 #nav-bar > h1 {
 	position: absolute;
+	text-shadow: white 2px;
 }
 
 #nav-list > li {
@@ -58,7 +60,6 @@
 	padding-top: 100px;
 }
 
-
 /*Wraps the individual content added to the body*/
 .content-wrapper {
 	margin: 0 auto;
@@ -85,3 +86,26 @@
 	text-align: center;
 
 }
+
+#footer {
+	width: 70%;
+	height: 50px;
+	left: 15%;
+	box-sizing: border-box;
+	background-color: black;
+	color: ghostwhite;
+	position: absolute;
+	bottom: 0;
+	padding: 0;
+}
+
+#footer > ul > li {
+	line-height: 25px;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+#footer > ul > li > a {
+	color: ghostwhite;
+}
+
