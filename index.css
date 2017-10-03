@@ -73,6 +73,13 @@
   font-size: 1.3em;
 }
 
+.content-wrapper img {
+	width: 80%;
+	height: auto;
+	padding: 2px;
+	border: 2px solid darkblue;
+}
+
 .stroke {
 	color: black;
   text-shadow:
