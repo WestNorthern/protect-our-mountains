@@ -1,4 +1,4 @@
-
+/*nav bar*/
 #nav-bar {
 	width: 72%;
 	height: 100px;
@@ -31,6 +31,7 @@
 	color: ghostwhite;
 }
 
+/*sidebars*/
 .sidebar-left{
 	position: fixed;
 	left: 0;
@@ -54,6 +55,7 @@
   transform: scaleX(-1);
 }
 
+/*main body*/
 .body-wrapper {
 	margin-left: 15%;
 	margin-right: 15%;
@@ -67,7 +69,6 @@
 	margin-top: 30px;
 	margin: 0 auto;
   border: 2px solid darkblue;
-  /*padding-top: 5%;*/
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 5%;
@@ -91,7 +92,6 @@
     1px -1px 0 #FFF,
     -1px 1px 0 #FFF,
      1px 1px 0 #FFF;
-  /*font-size: 3em;*/
 }
 
 .content-wrapper h1 {
@@ -100,6 +100,7 @@
 
 }
 
+/*footer*/
 #footer {
 	width: 70%;
 	height: 50px;
@@ -122,3 +123,37 @@
 	color: ghostwhite;
 }
 
+/*Donate Money Form*/
+#contact {
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	overflow: auto;
+	display: flex;
+}
+
+.contact-box> h3 {
+	margin-left: 5%;
+}
+
+.contact-box {
+	width: 50%;
+	height: 50%;
+	box-sizing: border-box;
+	border: solid 1px black;
+}
+
+.contact-box > h5 {
+	margin-left: 5%;
+}
+
+/*bitcoin logo and link*/
+#bitcoin {
+	height: 90px;
+	width: 270px;
+	border-radius: 10px;
+	background-image: url(images/WeAcceptBitcoin.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 10px;
+}
