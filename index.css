@@ -1,3 +1,7 @@
+body {
+	font-family: 'Michroma', sans-serif;
+}
+
 /*nav bar*/
 #nav-bar {
 	width: 72%;
@@ -15,14 +19,14 @@
 #nav-bar > h1 {
 	position: absolute;
 	text-shadow: white 2px;
-	left:10%;
+	left:5%;
 }
 
 #nav-list > li {
 	display: inline-block;
 	margin: 0 auto;
 	position: relative;
-	left: 72%;
+	left: 58%;
 	line-height: 90px;
 }
 
@@ -109,7 +113,7 @@
 	background-color: black;
 	color: ghostwhite;
 	position: relative;
-	bottom: 0;
+	bottom: 0px;
 	padding: 0;
 }
 
