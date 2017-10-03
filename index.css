@@ -91,11 +91,7 @@ body {
 
 .stroke {
 	color: black;
-  text-shadow:
-   -1px -1px 0 #FFF,  
-    1px -1px 0 #FFF,
-    -1px 1px 0 #FFF,
-     1px 1px 0 #FFF;
+  text-shadow:-1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
 }
 
 .content-wrapper h1 {
@@ -136,7 +132,7 @@ body {
 	display: flex;
 }
 
-.contact-box> h3 {
+.contact-box > h3 {
 	margin-left: 5%;
 }
 
