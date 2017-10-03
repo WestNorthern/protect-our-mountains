@@ -1,0 +1,23 @@
+.sidebar-left{
+	position: fixed;
+	left: 0;
+	height: 100%;
+	width: 15%;
+	background-image: url();
+}
+
+.sidebar-right{
+	position: fixed;
+	right: 0;
+	height: 100%;
+	width: 15%;
+  background-image: url();
+}
+
+.body-wrapper {
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 100px;
+}
